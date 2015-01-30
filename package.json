@@ -18,6 +18,7 @@
   "homepage": "https://github.com/Gwash3189/mockigur",
   "dependencies": {
     "backbone": "^1.1.2",
+    "jquery": "^2.1.3",
     "react": "^0.12.2",
     "react-router": "^0.11.6",
     "reflux": "^0.2.4"
