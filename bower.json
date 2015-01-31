@@ -1,0 +1,20 @@
+{
+  "name": "mockigur",
+  "version": "0.0.0",
+  "homepage": "https://github.com/Gwash3189/mockigur",
+  "authors": [
+    "Adam <adamb3189@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Snap.js": "~1.9.3"
+  }
+}

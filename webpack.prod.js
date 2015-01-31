@@ -40,7 +40,8 @@ module.exports = {
     externals: {
 	 	//when require("Math") is called, the window.Math object is provided.
 	 	//this means that window.Math is now provided as a seperate module & is mockable for testing.
-		"Math": "window.Math"
-	}
+		"Math": "window.Math",
+        "Snap": "window.Snap"
+    }
    
 };

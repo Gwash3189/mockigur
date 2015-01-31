@@ -3,7 +3,7 @@ var FrontPageImageItem = require("./frontPageImageItem");
 
 var FrontPageImageList = React.createClass({
 	renderImageItem(imageModel) {
-		return <FrontPageImageItem item={imageModel} />
+		return <FrontPageImageItem key={imageModel.cid} image={imageModel} />
 	},
 	render() {
 		return (
